@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="800px" viewBox="0 0 1440 800" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <pattern id="floral" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+            <path d="M50,0 C60,20 80,30 100,30 C80,40 70,60 70,80 C60,60 40,50 20,50 C40,40 50,20 50,0" 
+                  fill="#FFE4E6" fill-opacity="0.3"/>
+            <path d="M0,50 C20,60 30,80 30,100 C40,80 60,70 80,70 C60,60 50,40 50,20 C40,40 20,50 0,50" 
+                  fill="#FFB6B9" fill-opacity="0.3"/>
+        </pattern>
+    </defs>
+    <rect width="1440" height="800" fill="#FFFFFF"/>
+    <rect width="1440" height="800" fill="url(#floral)"/>
+    <path d="M0,400 C300,300 600,500 900,400 C1200,300 1440,400 1440,400 L1440,800 L0,800 Z" 
+          fill="#FF8C94" fill-opacity="0.1"/>
+</svg>
