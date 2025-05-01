@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 } elseif (empty($category)) {
                     $errors[] = "Category is required";
                 } elseif ($estimated_cost <= 0) {
-                    $errors[] = "Estimated cost must be greater than 0";      
+                    $errors[] = "Estimated cost must be greater than 0";        
                 } else {
                     try {
                         $stmt = $pdo->prepare("
