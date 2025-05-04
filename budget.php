@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                 if (empty($item_name)) {
                     $errors[] = "Item name is required";
-                } elseif (empty($category)) {     
+                } elseif (empty($category)) {       
                     $errors[] = "Category is required";
                 } elseif ($estimated_cost <= 0) {
                     $errors[] = "Estimated cost must be greater than 0";        
